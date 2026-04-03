@@ -58,7 +58,7 @@ public class Computador {
                 break;
             case "Samsung":
                 System.out.println(this.marca);
-                System.out.println((this.preco+1234));
+                System.out.println(("R$ " + this.preco+1234));
                 hbi5.getInfo();
                 soWin8.getInfo();
                 musb32GB.getInfo();
@@ -66,7 +66,7 @@ public class Computador {
                 break;
             case "Dell":
                 System.out.println(this.marca);
-                System.out.println((this.preco+5678));
+                System.out.println(("R$ " + this.preco+5678));
                 hbi7.getInfo();
                 soWin10.getInfo();
                 musb1Tb.getInfo();
